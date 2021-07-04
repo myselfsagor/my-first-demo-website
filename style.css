@@ -59,5 +59,42 @@ body{
 .half-side2 p{
     display: block;
 }
+.section2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-position-y: 46px;
+    height: 550px;
+    margin-bottom: 5px;
+}
+/* Experience Section Css */
+.ex-box{
+    height: 100%;
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 85px;
    
+}
+.bam-side{
+    background-color: rgba(108, 172, 218, 0.904);
+    width: 600px;
+    margin-left: 50px;
+    padding: 25px;
+    margin-bottom: 150px;
+    border-radius: 5px;
+    border-image-source: linear-gradient(red,green,blue);
+    border-image-slice: 2;
+}
+.bam-side h3{
+    
+    font-size: 15px;
+    word-spacing: 5px;
+    
+            
+}
+footer{
+    text-align: center;
+}
+    
     
