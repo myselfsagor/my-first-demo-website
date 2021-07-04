@@ -1,3 +1,43 @@
-h1{
-    background-color: rgb(73, 146, 230);
+/* Body CSS */
+body{
+    font-family:'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    font-size: 25px;
 }
+/* Section CSS */
+.section1{
+    height: 500px;
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+   
+    
+}
+.section1-img{
+    height: 80%;
+}
+.half-side{
+    padding-left: 20px;
+    margin-left: 30px;
+}
+.half-side span{
+    color: orange;
+}
+.half-side h2{
+    color: rgb(75, 149, 247);
+}
+.section-btn{
+    padding: 10px 20px;
+    background-color: rgb(236, 142, 99);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.section-btn:hover {
+    background-color: rgb(136, 62, 18);
+    transition: .5s;
+
+}
+/* Section2 CSS */
