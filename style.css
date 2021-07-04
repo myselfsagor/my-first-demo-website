@@ -1,14 +1,15 @@
 /* Body CSS */
 body{
-    font-family:'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
 }
 /* Section1 CSS */
 .section1{
-    height: 500px;
+    height: 550px;
+    margin-bottom: 100px;
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -16,12 +17,12 @@ body{
     
 }
 .section1-img{
-    height: 80%;
+    height: 100%;
     display: inline-block;
 }
 .half-side{
     padding-left: 20px;
-    margin: 5px 40px 0px 20px;
+    margin: 5px 40px 0px 50px;
 }
 .half-side span{
     color: orange;
@@ -42,3 +43,20 @@ body{
 
 }
 /* Section2 CSS */
+.section2{
+    display: flex;
+    
+}
+.section2-img{
+    margin-left: 62px;
+    display: inline-block;
+}
+.half-side2{
+    margin-left: 130px;
+    margin-right: 50px;
+}
+.half-side2 p{
+    display: block;
+}
+   
+    
