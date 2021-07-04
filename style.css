@@ -6,7 +6,7 @@ body{
     text-align: justify;
     font-size: 25px;
 }
-/* Section CSS */
+/* Section1 CSS */
 .section1{
     height: 500px;
     display: flex;
@@ -17,10 +17,11 @@ body{
 }
 .section1-img{
     height: 80%;
+    display: inline-block;
 }
 .half-side{
     padding-left: 20px;
-    margin-left: 30px;
+    margin: 5px 40px 0px 20px;
 }
 .half-side span{
     color: orange;
